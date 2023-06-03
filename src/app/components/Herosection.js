@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Herosection = ({ title, para, imageUrl }) => {
   return (
-    <div>
+    <div className="container">
       <div className="col">
         <h3>{title}</h3>
         <p>{para}</p>

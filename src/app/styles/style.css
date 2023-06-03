@@ -7,8 +7,8 @@
 
 .nav li {
     display: inline;
-    margin: 10px;
     justify-content: right;
+    padding: 20px;
 }
 
 .nav a {
@@ -18,11 +18,17 @@
     font-size: 20px;
 }
 
+.container{
+    height: 60vh;
+    width: 100vw;
+}
+
 .col{
-    border: 2px solid red;
     float: left;
     width: 40%;
     height: 50vh;
     padding: 3rem;
-    
+    border: 2px solid black;
 }
+
+
