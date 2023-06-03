@@ -1,10 +1,14 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import Herosection from "./components/Herosection";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Herosection
+        title={"This is home page"}
+        para={"This is homepage pararagraph"}
+        imageUrl={"/websites.jpg"}
+      />
     </div>
   );
 }
